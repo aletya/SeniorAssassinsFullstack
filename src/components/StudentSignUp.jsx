@@ -26,7 +26,7 @@ export default function StudentSignUp(props){
     console.log(inputValue.name)
     axios.post("https://senior-assassins-backend.aletya.repl.co/students", inputValue)
       .then(response => {
-        navigate("/success")
+        navigate("/SeniorAssassinsFullstack/success")
         console.log(response.data)
       })
       .catch(error => console.log(error))

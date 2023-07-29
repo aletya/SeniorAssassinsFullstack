@@ -11,13 +11,17 @@ export default function AdminControlls() {
   // state for the data from backend
   // state for the loading
   const [requestKillData, setRequestKillData] = useState([]);
-  const [loading, setLoading] = useState(<ReactLoading type="bubbles" color="#000000" margin/>)
+  const [loading, setLoading] = useState(
+    <div>
+      <ReactLoading type="bubbles" color="#000000" margin/>
+    </div>
+  )
     
 
   // gets all current kill requests from backend, stores in data state
   useEffect(() => {
     axios
-      .get('https://backend.yaseenhalabi4.repl.co/killRequests')
+      .get('https://senior-assassins-backend.aletya.repl.co/killRequests')
       .then((response) => {
         setRequestKillData(response.data);
         setLoading();
@@ -35,7 +39,7 @@ export default function AdminControlls() {
     )
 
      axios
-      .delete('https://backend.yaseenhalabi4.repl.co/killRequests/' + objectToRemove._id)
+      .delete('https://senior-assassins-backend.aletya.repl.co/killRequests/' + objectToRemove._id)
       .then((response) => {
         console.log(response)
       })
@@ -47,7 +51,7 @@ export default function AdminControlls() {
     removeFromSight(objectToSubmit)
 
     axios
-      .post('https://backend.yaseenhalabi4.repl.co/kill', objectToSubmit)
+      .post('https://senior-assassins-backend.aletya.repl.co/kill', objectToSubmit)
       .then((response) => {
         console.log(response)
       })
@@ -57,25 +61,35 @@ export default function AdminControlls() {
     
   // maps backend data to an array of html components 
   // each kill request has a killer, victim, and a yes/no option
+  
   let requestKillHTML = requestKillData.map((item, key) => {
     return(
       <div key={key} className="row">
         <div className="col">{item.name1}</div>
         <div className="col">{item.name2}</div> 
         <div className="col">
-          <button onClick={() => {removeFromSight(item)}}>no</button>
-          <button onClick={() => {submitKill(item)}}>yes</button>
+          <button onClick={() => {submitKill(item)}}>Confirm</button>
+          <button onClick={() => {removeFromSight(item)}}>Deny</button>
         </div>
-        
       </div>
-      
     )
   })
+
+  const HeaderRow = () => {
+    return (
+      <div className="row header-row">
+        <div className="col">Killer</div>
+        <div className="col">Victim</div>
+        <div className="col">Actions</div>
+      </div>
+    );
+  };
 
   // The loading will show until the get request is returned
   return (
     <div className="">
       {loading}
+      <HeaderRow />
       {requestKillHTML}
     </div>
   )

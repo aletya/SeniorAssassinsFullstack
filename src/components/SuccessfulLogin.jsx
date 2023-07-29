@@ -8,9 +8,9 @@ export default function SuccessfulLogin(){
   // does this need documentation?
   return(
     <div className="text-left m-5">
-      LOGIN WAS SUCCESSFUL
+      SUCCESSFUL
       <br/>
-      <button onClick={() => {navigate("/")}}> Return To Home </button>
+      <button onClick={() => {navigate("/SeniorAssassinsFullstack")}}> Return To Home </button>
     </div>
   )
 }

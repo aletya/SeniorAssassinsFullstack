@@ -11,21 +11,24 @@ const navigate = useNavigate();
   return(
     <Navbar bg="white" expand="sm" className="shadow-sm">
       <Container fluid>
-        <Navbar.Brand style={{cursor: "pointer"}} className="ms-3 cursor-pointer" onClick={()=>{navigate("/")}}>
+        <Navbar.Brand style={{cursor: "pointer"}} className="ms-3 cursor-pointer" onClick={()=>{navigate("/SeniorAssassinsFullstack")}}>
           TAG
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
-            <Nav.Link onClick={()=>{navigate("/leaderboard")}} className="text-dark">
+            <Nav.Link onClick={()=>{navigate("/SeniorAssassinsFullstack/leaderboard")}} className="text-dark">
               <img style={{marginBottom: "5px"}} width="20px" className="navIcon me-1" src="https://icons.veryicon.com/png/o/miscellaneous/monochrome-function-linear-icon/leaderboard-2.png"></img>
               Leaderboard
             </Nav.Link>
-            <Nav.Link onClick={()=>{navigate("/signup")}} className="text-dark">
+            <Nav.Link onClick={()=>{navigate("/SeniorAssassinsFullstack/signup")}} className="text-dark">
               Signup
             </Nav.Link>
-            <Nav.Link onClick={()=>{navigate("/submitkill")}} className="text-dark">
-              Submit Tag
+            <Nav.Link onClick={()=>{navigate("/SeniorAssassinsFullstack/submitkill")}} className="text-dark">
+              Submit Tag Request
+            </Nav.Link>
+            <Nav.Link onClick={()=>{navigate("/SeniorAssassinsFullstack/admin")}} className="text-dark">
+              Secret Button
             </Nav.Link>
             
           </Nav>

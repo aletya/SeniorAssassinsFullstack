@@ -42,7 +42,7 @@ export default function SubmitKill(props){
     
     axios.post("https://senior-assassins-backend.aletya.repl.co/killRequests", {name1: nameSearchTerm, name2: targetSearchTerm})
       .then(response => {
-        navigate("/success")
+        navigate("/SeniorAssassinsFullstack/success")
         console.log(response.data)
       })
       .catch(error => console.log(error))
