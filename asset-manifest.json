@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SeniorAssasinsFullstack/static/css/main.723ccb03.css",
+    "main.js": "/SeniorAssasinsFullstack/static/js/main.173ce8fd.js",
+    "static/js/787.bc7d429a.chunk.js": "/SeniorAssasinsFullstack/static/js/787.bc7d429a.chunk.js",
+    "index.html": "/SeniorAssasinsFullstack/index.html",
+    "main.723ccb03.css.map": "/SeniorAssasinsFullstack/static/css/main.723ccb03.css.map",
+    "main.173ce8fd.js.map": "/SeniorAssasinsFullstack/static/js/main.173ce8fd.js.map",
+    "787.bc7d429a.chunk.js.map": "/SeniorAssasinsFullstack/static/js/787.bc7d429a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.723ccb03.css",
+    "static/js/main.173ce8fd.js"
+  ]
+}
