@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SeniorAssasinsFullstack/static/css/main.723ccb03.css",
-    "main.js": "/SeniorAssasinsFullstack/static/js/main.173ce8fd.js",
-    "static/js/787.bc7d429a.chunk.js": "/SeniorAssasinsFullstack/static/js/787.bc7d429a.chunk.js",
-    "index.html": "/SeniorAssasinsFullstack/index.html",
-    "main.723ccb03.css.map": "/SeniorAssasinsFullstack/static/css/main.723ccb03.css.map",
-    "main.173ce8fd.js.map": "/SeniorAssasinsFullstack/static/js/main.173ce8fd.js.map",
-    "787.bc7d429a.chunk.js.map": "/SeniorAssasinsFullstack/static/js/787.bc7d429a.chunk.js.map"
+    "main.css": "/SeniorAssassinsFullstack/static/css/main.723ccb03.css",
+    "main.js": "/SeniorAssassinsFullstack/static/js/main.449985c7.js",
+    "static/js/787.bc7d429a.chunk.js": "/SeniorAssassinsFullstack/static/js/787.bc7d429a.chunk.js",
+    "index.html": "/SeniorAssassinsFullstack/index.html",
+    "main.723ccb03.css.map": "/SeniorAssassinsFullstack/static/css/main.723ccb03.css.map",
+    "main.449985c7.js.map": "/SeniorAssassinsFullstack/static/js/main.449985c7.js.map",
+    "787.bc7d429a.chunk.js.map": "/SeniorAssassinsFullstack/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.723ccb03.css",
-    "static/js/main.173ce8fd.js"
+    "static/js/main.449985c7.js"
   ]
 }
