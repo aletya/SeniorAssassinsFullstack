@@ -1,0 +1,14 @@
+.leaderboardHeader{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #c9c9c9 solid 1px;  
+}
+
+.lh-item{
+  font-style: bold;
+  flex-grow: 1;
+  flex-basis: 50%;
+  justify-content: center;
+  
+}
+
