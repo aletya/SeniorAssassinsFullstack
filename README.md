@@ -1,70 +1,22 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Senior Assassins
+Contributers: Alex Yang and Yaseen Halabi
+## Overview
+This is a simple, clean full-stack web application to facilitate Senior Assassins, an irl last man standing game. A demo is live at https://aletya.github.io/SeniorAssassinsFullstack/.
+## Motivation
+Previously, our highschool had used manual methods, marking changes in the game state by hand, but we thought that it would be much simpler to have a computer do all the heavy lifting.
+## Game rules
+- Each round, each player is assigned a target to kill (1 shot with a nerf gun).
+- You may get kills by killing your target, or killing your assassin.
+- After killing your target, you're assigned their target.
+- If your target is killed in self-defense by their target, you're assined their target.
+- Most kills wins $250. Last person standing wins $250.
+- Hermit rule: If your target kills their target, but you don't get any kills by the end of the round, you're considered inactive and are eliminated.
+## Process
+Although we had learned to code programs to do tasks locally, we hadn't worked with web applications before. After a few days of research, we decided to implement a **RESTful API** using javascript on both frontend and backend, as well as use **MongoDB** for cloud data storage. We used the **ReactJS**, **Node.js**, **Express.js**, and **Mongoose** framework/libraries, as well as **HTML** and **CSS**. From there, we started with the basics— storing players, and steadily built up capabilities from there. We managed to implement
+- full round automation
+- email notifications
+- kill submissions
+- new player signup
+- a clean UI
+- a dynamic leaderboard
+- hidden admin controls
