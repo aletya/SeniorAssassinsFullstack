@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SeniorAssassinsFullstack/static/css/main.723ccb03.css",
-    "main.js": "/SeniorAssassinsFullstack/static/js/main.d9d726c9.js",
+    "main.js": "/SeniorAssassinsFullstack/static/js/main.212e76d8.js",
     "static/js/787.bc7d429a.chunk.js": "/SeniorAssassinsFullstack/static/js/787.bc7d429a.chunk.js",
     "index.html": "/SeniorAssassinsFullstack/index.html",
     "main.723ccb03.css.map": "/SeniorAssassinsFullstack/static/css/main.723ccb03.css.map",
-    "main.d9d726c9.js.map": "/SeniorAssassinsFullstack/static/js/main.d9d726c9.js.map",
+    "main.212e76d8.js.map": "/SeniorAssassinsFullstack/static/js/main.212e76d8.js.map",
     "787.bc7d429a.chunk.js.map": "/SeniorAssassinsFullstack/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.723ccb03.css",
-    "static/js/main.d9d726c9.js"
+    "static/js/main.212e76d8.js"
   ]
 }
