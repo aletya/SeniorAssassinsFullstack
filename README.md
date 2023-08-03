@@ -1,5 +1,5 @@
 # Senior Assassins
-Contributers: Alex Yang and Yaseen Halabi
+Alex Yang and Yaseen Halabi
 ## Overview
 - This is a simple, clean full-stack web application to facilitate Senior Assassins, an irl last man standing game.
 - A demo is live at https://aletya.github.io/SeniorAssassinsFullstack/.
