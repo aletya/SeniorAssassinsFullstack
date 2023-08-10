@@ -14,11 +14,11 @@ import AdminControlls from './admin/AdminControlls'
 
 
 
-
 // routing for the website
 export default function App() {
   return (
     <main className="home">
+      <meta name="google-site-verification" content="WpXclVcD_gnl1HsxdRvgYEP9D2H7sx_08jBqGa9ULl8" />
       <BrowserRouter>
         <_Navbar />
         <Routes>

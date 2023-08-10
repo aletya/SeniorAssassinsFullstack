@@ -9,7 +9,6 @@ export default function HomePage(props){
         <h2>Prizes:</h2>
         <h3>Last Man Alive: $250</h3>
         <h3>Most Kills: $250</h3>
-        
       </div>
     </div>
   )
