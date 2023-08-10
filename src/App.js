@@ -25,6 +25,7 @@ export default function App() {
           <Route path="/SeniorAssassinsFullstack/admin" element={<AdminControlls />}></Route>
           <Route path="/SeniorAssassinsFullstack/signup" element={<StudentSignUp />}></Route>
           <Route path="/SeniorAssassinsFullstack" element={<HomePage />}></Route>
+          <Route path="/" element={<HomePage />}></Route>
           <Route path="/SeniorAssassinsFullstack/success" element={<SuccessfulLogin />}></Route>
           <Route path="/SeniorAssassinsFullstack/leaderboard" element={<Leaderboard />}></Route>
           <Route path="/SeniorAssassinsFullstack/submitkill" element={<SubmitKill />}></Route>
