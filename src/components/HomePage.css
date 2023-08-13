@@ -3,3 +3,11 @@
   margin: 0% 20%;
 
 }
+
+.gameCanvas {
+  position: absolute;
+  top: 40vh;
+  left: 50vw;
+  width: 50vw;
+  height: 60vh;
+}
